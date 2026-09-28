@@ -28,6 +28,7 @@ class Solution:
 
 if __name__ == '__main__':
     testcase = TreeNode(1)
+    testcase.left = TreeNode(0)
     testcase.right = TreeNode(2)
     testcase.right.left = TreeNode(3)
 
